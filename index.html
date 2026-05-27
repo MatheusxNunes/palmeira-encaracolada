@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Prime Motors</title>
 </head>
 <body>
-    
+
     <header>
-        <nav class="area-navegação">
-            <div><img class="logo" src="img/Logo Prime Motors.png" alt="logo-Prime-Motors" width="100px" height="125px">
+        <nav class="area-navegacao">
+            <div class="logo-container">
+                <img class="logo" src="img/Logo Prime Motors.png" alt="Logo Prime Motors">
             </div>
 
             <ul id="icones">
-                <li><a  class="icones"  href="home">Home</a></li>
-                <li><a  class="icones"  href="catalogo">Menu</a></li>
-                <li><a  class="icones"  href="sobre">Quem somos</a></li>
-                <li><a  class="icones"  href="contato">Contato</a></li>
-                <li><a  class="icones"  href="login">Conta</a></li>
+                <li><a class="icones" href="#home">Home</a></li>
+                <li><a class="icones" href="#catalogo">Menu</a></li>
+                <li><a class="icones" href="#sobre">Quem somos</a></li>
+                <li><a class="icones" href="#contato">Contato</a></li>
+                <li><a class="icones" href="#login" class="btn-conta">Conta</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <article class="area-sobre" id="sobre">
-            <section id="area-banner">
-                <img src="img/s2.png" alt="Banner" id="banner__image">
-            </section>
-
-            <section class="area-texto">
+        <section class="hero-section" id="home">
+            <div class="hero-image-container">
+                <img src="img/s2.png" alt="Carro Prime Motors" id="banner__image">
+            </div>
+            
+            <div class="area-texto">
+                <h2>Experiência Premium</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsa commodi aut aliquam itaque voluptates accusantium odit laudantium. Perspiciatis ex, soluta hic quis officiis itaque earum ad rem sed aliquam voluptate aliquid numquam.</p>
-
-            </section>
-        </article>
-
+                <a href="#catalogo" class="btn-conhecer">Conheça os Modelos</a>
+            </div>
+        </section>
     </main>
+
 </body>
 </html>
