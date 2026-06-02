@@ -376,3 +376,98 @@ nav ul li a:hover::after {
   transform: scale(1.1);
   transition: 0.6s;
 }
+
+
+/* teste não testado para testar testando*/
+
+.galeria-section {
+  background-color: #0a0a0a;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.galeria-section h2 {
+  color: #d4af37; 
+  font-family: 'serif';
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+.comparador-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto 0;
+  overflow: hidden;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.comparador-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;  }
+
+.img-antes-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; 
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-antes {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-divisor {
+  position: absolute;
+  -webkit-appearance: none;
+  appearance: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  opacity: 0;
+  cursor: ew-resize;
+  z-index: 10;
+}
+
+.linha-separadora {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  background-color: #d4af37; 
+  pointer-events: none;
+  z-index: 5;
+  transform: translateX(-50%);
+}
+
+
+.linha-separadora::after {
+  content: "↔";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: #111;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
