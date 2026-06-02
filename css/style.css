@@ -1,4 +1,4 @@
-/* Ajudando o Bovino na Atividade */
+
 * {
   margin: 0;
   padding: 0;
@@ -377,7 +377,6 @@ nav ul li a:hover::after {
   transition: 0.6s;
 }
 
-
 /* teste não testado para testar testando*/
 
 .galeria-section {
@@ -422,13 +421,15 @@ nav ul li a:hover::after {
 }
 
 .img-antes {
-  width: 100% !important;
+  width: 800px !important;
+  max-width: 800px !important;
   height: 100%;
   object-fit: cover;
+  object-position: left;
 }
 
 .slider-divisor {
-  position: absolute;
+  position: absolute; 
   -webkit-appearance: none;
   appearance: none;
   top: 0;
