@@ -222,9 +222,10 @@ nav ul li a:hover::after {
 }
 
 .img-antes {
-  width: 100% !important;
-  height: 100%;
+  width: 920px !important;
+  max-width: none;
   object-fit: cover;
+  height: 100%;
   object-position: left;
 }
 
